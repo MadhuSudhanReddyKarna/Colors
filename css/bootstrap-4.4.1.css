@@ -10225,3 +10225,18 @@ a.text-dark:hover, a.text-dark:focus {
 .rounded-square {
     border-radius: 10px;
 }
+
+.HeadOfPage {
+    height: 10vh;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.RestOfThePage {
+    background: #ECECEC;
+    height:100vh;
+}
+
+#Thub {
+    
+}
