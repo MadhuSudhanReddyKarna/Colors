@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Agency Page Template</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	  <link rel="script" href="js/script.js">
-  </head>
-  <body>
-	  <div class="technicalhub-colors w-100">
-		  <button onclick="myFunction()" class="ColorSquare"></button>
-		  <div class="ColorSquare"></div><br>
-		  <div class="ColorSquare"></div><br>
-		  <div class="ColorSquare"></div><br>
-		  <div class="ColorSquare"></div>
-	  </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="js/jquery-3.4.1.min.js"></script> 
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="js/popper.min.js"></script> 
-    <script src="js/bootstrap-4.4.1.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Hub Colors</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+</head>
+<body>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h1>Codemind Colors</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 text-center col-xl-2 col-lg-2 col-md-3">
+        <button class="rounded-square" id="282937" style="border: none; width: 140px; height: 140px; background-color: #292837; decoration:none;" onclick="myFunction(this.id)"></button>
+      </div>
+      <div class="col-sm-12 text-center col-xl-2 col-lg-2 col-md-3">
+        <button class="rounded-square" id="eb6471" style="border: none; width: 140px; height: 140px; background-color: #eb6471; decoration:none;" onclick="myFunction(this.id)"></button>
+      </div>
+      <div class="col-sm-12 text-center col-xl-2 col-lg-2 col-md-3">
+        <button class="rounded-square" id="ffbb00" style="border: none; width: 140px; height: 140px; background-color: #ffbb00; decoration:none;" onclick="myFunction(this.id)"></button>
+      </div>
+      <div class="col-sm-12 text-center col-xl-2 col-lg-2 col-md-3">
+        <button class="rounded-square" id="72bd20" style="border: none; width: 140px; height: 140px; background-color: #72bd20; decoration:none;" onclick="myFunction(this.id)"></button>
+      </div>
+      <div class="col-sm-12 text-center col-xl-2 col-lg-2 col-md-3">
+        <button class="rounded-square" id="008738" style="border: none; width: 140px; height: 140px; background-color: #008738; decoration:none;" onclick="myFunction(this.id)"></button>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+        function myFunction(clicked_id) {
+            navigator.clipboard.writeText(clicked_id);
+}
+    </script> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
 </html>
